@@ -30,6 +30,9 @@ const useFetch = ( url ) => {
                 }
 
             } )
+            .catch(()=>{
+                setState({ data: null, loading: false, error: 'Error en la petición' })
+            })
 
     },[url])
 

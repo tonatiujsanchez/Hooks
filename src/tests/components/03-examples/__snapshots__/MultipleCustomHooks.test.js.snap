@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <MultipleCustomHooks /> Debe de mostrarse correctamente 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-md-10 col-lg-8 mx-auto"
+  >
+    <Header
+      counter={1}
+      decrement={[Function]}
+      increment={[Function]}
+    />
+    <hr />
+    <Loading />
+  </div>
+</div>
+`;

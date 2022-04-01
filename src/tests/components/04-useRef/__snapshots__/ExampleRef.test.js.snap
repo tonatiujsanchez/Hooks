@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <ExampleRef /> Debe mostrarse correctamente 1`] = `
+<div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <h2>
+      Example Ref
+    </h2>
+    <button
+      className="btn btn-secondary"
+      onClick={[Function]}
+    >
+      Show/Hidden
+    </button>
+  </div>
+  <hr />
+  <div
+    className="my-3"
+  />
+</div>
+`;
